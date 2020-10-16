@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-10-15T13:40:20.625Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36 OPR/71.0.3770.228" etag="aZmdlYIYLS2Ouy6PeQhp" version="13.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-16T08:05:16.645Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36 OPR/71.0.3770.228" etag="Wu8SAp-VblaoGmES3tOB" version="13.8.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2071" dy="831" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3537" dy="1566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -36,26 +36,8 @@
             <mxPoint x="30.09" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5cLu1j_Fh5NlevFUKu2e-8" value="Markasykler" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="660" y="70" width="440" height="138" as="geometry" />
-        </mxCell>
-        <mxCell id="5cLu1j_Fh5NlevFUKu2e-10" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="5cLu1j_Fh5NlevFUKu2e-8" vertex="1">
-          <mxGeometry y="26" width="440" height="8" as="geometry" />
-        </mxCell>
-        <mxCell id="5cLu1j_Fh5NlevFUKu2e-20" value="registrerUtlån(Sykkel s, Kunde k) : (ingen returverdi) " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="5cLu1j_Fh5NlevFUKu2e-8" vertex="1">
-          <mxGeometry y="34" width="440" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="5cLu1j_Fh5NlevFUKu2e-21" value="registrerKunde(String navn, String tlf, String epostAdresse) : (ingen returverdi)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="5cLu1j_Fh5NlevFUKu2e-8" vertex="1">
-          <mxGeometry y="60" width="440" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="uB-KTIDts_Ee8TIW10e4-4" value="beOmSykkel() : boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="5cLu1j_Fh5NlevFUKu2e-8">
-          <mxGeometry y="86" width="440" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="uB-KTIDts_Ee8TIW10e4-5" value="beOmOversikt() : Array&lt;Sykkel&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="5cLu1j_Fh5NlevFUKu2e-8">
-          <mxGeometry y="112" width="440" height="26" as="geometry" />
-        </mxCell>
         <mxCell id="aeJ9pazkbRF26ST0N7e8-0" value="Kunde" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="230" y="290" width="330" height="476" as="geometry" />
+          <mxGeometry x="230" y="290" width="330" height="502" as="geometry" />
         </mxCell>
         <mxCell id="2YwRM7dUgeI0-jvgFiAl-2" value="kunder: Array&lt;Kunde&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="aeJ9pazkbRF26ST0N7e8-0" vertex="1">
           <mxGeometry y="26" width="330" height="26" as="geometry" />
@@ -78,10 +60,10 @@
         <mxCell id="aeJ9pazkbRF26ST0N7e8-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="aeJ9pazkbRF26ST0N7e8-0" vertex="1">
           <mxGeometry y="182" width="330" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="uB-KTIDts_Ee8TIW10e4-7" value="hentKunder() : Array&lt;Kunde&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="aeJ9pazkbRF26ST0N7e8-0">
+        <mxCell id="uB-KTIDts_Ee8TIW10e4-7" value="hentKunder() : Array&lt;Kunde&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="aeJ9pazkbRF26ST0N7e8-0" vertex="1">
           <mxGeometry y="190" width="330" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="uB-KTIDts_Ee8TIW10e4-8" value="hentKunde(int kundeNr) : Kunde" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="aeJ9pazkbRF26ST0N7e8-0">
+        <mxCell id="uB-KTIDts_Ee8TIW10e4-8" value="hentKunde(int kundeNr) : Kunde" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="aeJ9pazkbRF26ST0N7e8-0" vertex="1">
           <mxGeometry y="216" width="330" height="26" as="geometry" />
         </mxCell>
         <mxCell id="aeJ9pazkbRF26ST0N7e8-4" value="hentKundeNr() : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="aeJ9pazkbRF26ST0N7e8-0" vertex="1">
@@ -90,7 +72,7 @@
         <mxCell id="aeJ9pazkbRF26ST0N7e8-5" value="hentNavn() : String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="aeJ9pazkbRF26ST0N7e8-0" vertex="1">
           <mxGeometry y="268" width="330" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="uB-KTIDts_Ee8TIW10e4-6" value="settNavn(String navn) : (ingen returverdi)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="aeJ9pazkbRF26ST0N7e8-0">
+        <mxCell id="uB-KTIDts_Ee8TIW10e4-6" value="settNavn(String navn) : (ingen returverdi)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="aeJ9pazkbRF26ST0N7e8-0" vertex="1">
           <mxGeometry y="294" width="330" height="26" as="geometry" />
         </mxCell>
         <mxCell id="aeJ9pazkbRF26ST0N7e8-6" value="hentEpostAdresse() : String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="aeJ9pazkbRF26ST0N7e8-0" vertex="1">
@@ -110,6 +92,9 @@
         </mxCell>
         <mxCell id="aeJ9pazkbRF26ST0N7e8-14" value="settSykkel(Sykkel s) : (ingen returverdi)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="aeJ9pazkbRF26ST0N7e8-0" vertex="1">
           <mxGeometry y="450" width="330" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5cLu1j_Fh5NlevFUKu2e-21" value="registrerKunde(String navn, String tlf, String epostAdresse) : (ingen returverdi)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="aeJ9pazkbRF26ST0N7e8-0" vertex="1">
+          <mxGeometry y="476" width="330" height="26" as="geometry" />
         </mxCell>
         <mxCell id="QVgdoW_EJSvDWmZYw-zW-0" value="Sykkel" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="680" y="290" width="390" height="554" as="geometry" />
@@ -138,7 +123,7 @@
         <mxCell id="5cLu1j_Fh5NlevFUKu2e-17" value="hentSykler() : Array&lt;Sykkel&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="QVgdoW_EJSvDWmZYw-zW-0" vertex="1">
           <mxGeometry y="190" width="390" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="uB-KTIDts_Ee8TIW10e4-9" value="hentSykkel(int sykkelId) : Sykkel" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="QVgdoW_EJSvDWmZYw-zW-0">
+        <mxCell id="uB-KTIDts_Ee8TIW10e4-9" value="hentSykkel(int sykkelId) : Sykkel" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="QVgdoW_EJSvDWmZYw-zW-0" vertex="1">
           <mxGeometry y="216" width="390" height="26" as="geometry" />
         </mxCell>
         <mxCell id="5cLu1j_Fh5NlevFUKu2e-22" value="hentSyklerPaaOvertid() : Array&lt;Sykkel&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="QVgdoW_EJSvDWmZYw-zW-0" vertex="1">
@@ -178,7 +163,7 @@
           <mxGeometry y="528" width="390" height="26" as="geometry" />
         </mxCell>
         <mxCell id="9goj5CrehQjhdctx5q1Q-0" value="Stasjon" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1240" y="300" width="230" height="372" as="geometry" />
+          <mxGeometry x="1240" y="300" width="230" height="398" as="geometry" />
         </mxCell>
         <mxCell id="2YwRM7dUgeI0-jvgFiAl-0" value="stasjoner: Array&lt;Stasjon&gt;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="9goj5CrehQjhdctx5q1Q-0" vertex="1">
           <mxGeometry y="26" width="230" height="26" as="geometry" />
@@ -195,7 +180,7 @@
         <mxCell id="5cLu1j_Fh5NlevFUKu2e-11" value="hentStasjoner() : Array&lt;Stasjon&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="9goj5CrehQjhdctx5q1Q-0" vertex="1">
           <mxGeometry y="112" width="230" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="uB-KTIDts_Ee8TIW10e4-12" value="hentStasjon(int stasjonId) : Stasjon" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="9goj5CrehQjhdctx5q1Q-0">
+        <mxCell id="uB-KTIDts_Ee8TIW10e4-12" value="hentStasjon(int stasjonId) : Stasjon" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="9goj5CrehQjhdctx5q1Q-0" vertex="1">
           <mxGeometry y="138" width="230" height="26" as="geometry" />
         </mxCell>
         <mxCell id="5cLu1j_Fh5NlevFUKu2e-15" value="leggTilStasjon(Stasjon s) : boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="9goj5CrehQjhdctx5q1Q-0" vertex="1">
@@ -207,7 +192,7 @@
         <mxCell id="9goj5CrehQjhdctx5q1Q-8" value="hentSykler() : Array&lt;Sykkel&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="9goj5CrehQjhdctx5q1Q-0" vertex="1">
           <mxGeometry y="216" width="230" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="uB-KTIDts_Ee8TIW10e4-11" value="taUtSykkel(Sykkel s) : (ingen returverdi)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="9goj5CrehQjhdctx5q1Q-0">
+        <mxCell id="uB-KTIDts_Ee8TIW10e4-11" value="taUtSykkel(Sykkel s) : (ingen returverdi)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="9goj5CrehQjhdctx5q1Q-0" vertex="1">
           <mxGeometry y="242" width="230" height="26" as="geometry" />
         </mxCell>
         <mxCell id="9goj5CrehQjhdctx5q1Q-7" value="hentAntallPlasser() : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="9goj5CrehQjhdctx5q1Q-0" vertex="1">
@@ -221,6 +206,21 @@
         </mxCell>
         <mxCell id="9goj5CrehQjhdctx5q1Q-11" value="hentSykkelTyper() : Array&lt;int&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="9goj5CrehQjhdctx5q1Q-0" vertex="1">
           <mxGeometry y="346" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5cLu1j_Fh5NlevFUKu2e-20" value="registrerUtlån(Sykkel s, Kunde k) : (ingen returverdi) " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="9goj5CrehQjhdctx5q1Q-0" vertex="1">
+          <mxGeometry y="372" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5cLu1j_Fh5NlevFUKu2e-8" value="Markasykler" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="660" y="110" width="440" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="5cLu1j_Fh5NlevFUKu2e-10" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="5cLu1j_Fh5NlevFUKu2e-8" vertex="1">
+          <mxGeometry y="26" width="440" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="uB-KTIDts_Ee8TIW10e4-4" value="beOmSykkel() : boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="5cLu1j_Fh5NlevFUKu2e-8" vertex="1">
+          <mxGeometry y="34" width="440" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uB-KTIDts_Ee8TIW10e4-5" value="beOmOversikt() : Array&lt;Sykkel&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="5cLu1j_Fh5NlevFUKu2e-8" vertex="1">
+          <mxGeometry y="60" width="440" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
