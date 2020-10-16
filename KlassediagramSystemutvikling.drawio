@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-10-16T08:05:16.645Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36 OPR/71.0.3770.228" etag="Wu8SAp-VblaoGmES3tOB" version="13.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-16T08:20:16.464Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36 OPR/71.0.3770.228" etag="0Cs160tyxKOVrUdeWRou" version="13.8.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="3537" dy="1566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="783" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -39,7 +39,7 @@
         <mxCell id="aeJ9pazkbRF26ST0N7e8-0" value="Kunde" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="230" y="290" width="330" height="502" as="geometry" />
         </mxCell>
-        <mxCell id="2YwRM7dUgeI0-jvgFiAl-2" value="kunder: Array&lt;Kunde&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="aeJ9pazkbRF26ST0N7e8-0" vertex="1">
+        <mxCell id="2YwRM7dUgeI0-jvgFiAl-2" value="kunder: Array&lt;Kunde&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" parent="aeJ9pazkbRF26ST0N7e8-0" vertex="1">
           <mxGeometry y="26" width="330" height="26" as="geometry" />
         </mxCell>
         <mxCell id="aeJ9pazkbRF26ST0N7e8-1" value="kundeNr : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" parent="aeJ9pazkbRF26ST0N7e8-0" vertex="1">
@@ -99,7 +99,7 @@
         <mxCell id="QVgdoW_EJSvDWmZYw-zW-0" value="Sykkel" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="680" y="290" width="390" height="554" as="geometry" />
         </mxCell>
-        <mxCell id="2YwRM7dUgeI0-jvgFiAl-1" value="sykler: Array&lt;Sykler&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="QVgdoW_EJSvDWmZYw-zW-0" vertex="1">
+        <mxCell id="2YwRM7dUgeI0-jvgFiAl-1" value="sykler: Array&lt;Sykler&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" parent="QVgdoW_EJSvDWmZYw-zW-0" vertex="1">
           <mxGeometry y="26" width="390" height="26" as="geometry" />
         </mxCell>
         <mxCell id="QVgdoW_EJSvDWmZYw-zW-1" value="sykkelId : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" parent="QVgdoW_EJSvDWmZYw-zW-0" vertex="1">
@@ -165,7 +165,7 @@
         <mxCell id="9goj5CrehQjhdctx5q1Q-0" value="Stasjon" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="1240" y="300" width="230" height="398" as="geometry" />
         </mxCell>
-        <mxCell id="2YwRM7dUgeI0-jvgFiAl-0" value="stasjoner: Array&lt;Stasjon&gt;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="9goj5CrehQjhdctx5q1Q-0" vertex="1">
+        <mxCell id="2YwRM7dUgeI0-jvgFiAl-0" value="stasjoner: Array&lt;Stasjon&gt;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" parent="9goj5CrehQjhdctx5q1Q-0" vertex="1">
           <mxGeometry y="26" width="230" height="26" as="geometry" />
         </mxCell>
         <mxCell id="9goj5CrehQjhdctx5q1Q-5" value="stasjonId : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" parent="9goj5CrehQjhdctx5q1Q-0" vertex="1">
